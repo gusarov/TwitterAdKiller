@@ -97,7 +97,7 @@ public class Xposed implements IXposedHookLoadPackage {
 
 	public void log(String text)
 	{
-		// XposedBridge.log(text);
+		XposedBridge.log(text);
 		// debug("_NOAD_ " + text);
 		Log.i("NOAD", text);
 
