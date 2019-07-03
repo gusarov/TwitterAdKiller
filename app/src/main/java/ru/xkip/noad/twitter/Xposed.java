@@ -29,7 +29,6 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 public class Xposed implements IXposedHookLoadPackage {
 	private static final String tag = "NOAD";
 	private static final String COM_TWITTER = "com.twitter.android";
-	private static final String TAG = "TwitterAdfree: ";
 
 	private static Context context;
 	private static ClassLoader classLoader;
